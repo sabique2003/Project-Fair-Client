@@ -1,0 +1,14 @@
+->FormData:
+-------------
+
+-if we have files that needs to be passed with text in a together we use form data class to create the data object
+-with formdata object in body , we need to add Content-Type as multipart/form-data
+
+=>Context Api:-
+----------------
+-concept of data passing from one component to another without passing it down through every levels of component tree
+-another solution for props drilling
+-easy implementation
+
+-createContext():to create context instance for passing data
+-useContext():hook for accessing data from contexts
